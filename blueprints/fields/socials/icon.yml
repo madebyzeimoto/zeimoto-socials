@@ -1,0 +1,15 @@
+# ==========================================================
+# Fields :: Socials :: Icon
+# ==========================================================
+
+type: files
+label: Social Icon
+translate: false
+image:
+  cover: true
+  ratio: 1/1
+max: 1
+layout: list
+uploads: icon
+template: icon
+query: site.files.template('icon')

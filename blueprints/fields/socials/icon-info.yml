@@ -1,0 +1,11 @@
+# ==========================================================
+# Fields :: Socials :: Icon Info
+# ==========================================================
+
+type: info
+label: Social Icon Info
+theme: info
+text: >-
+  Default SVG icons are included for most platforms, so uploading an icon is optional.
+  Upload your own SVG to replace the default. Medium, Mastodon, and Substack do not
+  have default icons yet; upload an SVG if you want to display an icon for them.

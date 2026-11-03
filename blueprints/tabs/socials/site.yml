@@ -1,0 +1,29 @@
+# ==========================================================
+# Tabs :: Socials :: Site
+# ==========================================================
+
+label: Socials
+icon: socials
+columns:
+  columnLeft:
+    width: 4/6
+    sections:
+      socialsContentLeft:
+        type: fields
+        fields:
+          socials:
+            type: structure
+            label: Socials
+            translate: false
+            fields:
+              platform:
+                extends: fields/socials/platform
+                width: 2/6
+              username:
+                extends: fields/socials/username
+                width: 2/6
+              icon:
+                extends: fields/socials/icon
+                width: 2/6
+              iconInfo:
+                extends: fields/socials/icon-info

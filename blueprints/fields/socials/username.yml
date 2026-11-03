@@ -1,0 +1,8 @@
+# ==========================================================
+# Fields :: Socials :: Username
+# ==========================================================
+
+type: text
+label: Social Username
+translate: false
+required: true

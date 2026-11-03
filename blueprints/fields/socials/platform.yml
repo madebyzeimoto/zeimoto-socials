@@ -1,0 +1,34 @@
+# ==========================================================
+# Fields :: Socials :: Platform
+# ==========================================================
+
+type: select
+label: Social Platform
+translate: false
+required: true
+options:
+  behance: Behance
+  bluesky: BlueSky
+  discord: Discord
+  dribbble: Dribbble
+  facebook: Facebook
+  github: GitHub
+  gitlab: GitLab
+  instagram: Instagram
+  linkedin: LinkedIn
+  medium: Medium
+  mastodon: Mastodon
+  pinterest: Pinterest
+  reddit: Reddit
+  snapchat: Snapchat
+  soundcloud: SoundCloud
+  spotify: Spotify
+  substack: Substack
+  telegram: Telegram
+  threads: Threads
+  tiktok: TikTok
+  twitch: Twitch
+  vimeo: Vimeo
+  whatsapp: WhatsApp
+  x: X (Twitter)
+  youtube: YouTube
