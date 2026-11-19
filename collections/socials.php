@@ -36,7 +36,7 @@ $baseUrls = [
   "tiktok" => "https://tiktok.com/@",
   "twitch" => "https://twitch.tv/",
   "vimeo" => "https://vimeo.com/",
-  "whatsapp" => "https://wa.me/p/",
+  "whatsapp" => "https://wa.me/",
   "x" => "https://x.com/",
   "youtube" => "https://youtube.com/@",
 ];

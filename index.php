@@ -16,6 +16,11 @@ Kirby::plugin("zeimoto/socials", [
   "snippets" => [
     "components/socials" => __DIR__ . "/snippets/components/socials.php",
   ],
+  "translations" => [
+    "en" => [
+      "zeimoto-socials-follow-us" => "Follow us on",
+    ],
+  ],
   "blueprints" => [
     "tabs/socials/site" => __DIR__ . "/blueprints/tabs/socials/site.yml",
     "fields/socials/platform" => __DIR__ . "/blueprints/fields/socials/platform.yml",

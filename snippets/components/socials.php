@@ -22,7 +22,7 @@ $socials = $kirby->collection("socials");
             href="<?= html($social->url()) ?>"
             target="_blank"
             rel="noopener"
-            title="<?= html(t("follow-us") . " " . $social->name()) ?>"
+            title="<?= html(t("zeimoto-socials-follow-us") . " " . $social->name()) ?>"
           >
             <?php if ($social->icon()): ?>
               <i class="mds-icon" aria-hidden="true"><?= $social->icon() ?></i>

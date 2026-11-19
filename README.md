@@ -28,7 +28,8 @@ empty icon; Medium, Mastodon, and Substack currently have no bundled defaults.
 Uploaded icons are trusted author-managed SVGs, as in the existing kit.
 
 Render with `snippet("components/socials")`. It keeps the existing `mds-socials-*`
-classes and uses the host's `follow-us` translation. MDS owns their presentation.
+classes and supplies its own `zeimoto-socials-follow-us` translation. MDS owns
+their presentation.
 Compute's `sameAs()` and `twitterHandle()` consume the registered collection.
 Host collection, snippet, and blueprint files override plugin registrations;
 remove former host copies when migrating so there is only one implementation.
@@ -37,7 +38,6 @@ remove former host copies when migrating so there is only one implementation.
 
 - Provide a `files/icon` upload blueprint accepting SVG and its referenced fields.
   The kit supplies this blueprint for uploaded social icons.
-- Provide the `follow-us` translation (the kit's English language supplies it).
 - Load the `zeimoto-icons` Panel registry for the Socials tab icon.
 - Mount the MDS socials component styles for the public snippet.
 

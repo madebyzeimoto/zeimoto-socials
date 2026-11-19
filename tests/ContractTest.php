@@ -47,6 +47,7 @@ final class ContractTest extends PluginTestCase
     self::assertSame("https://example.substack.com", $byPlatform["substack"]->url());
     self::assertSame("https://medium.com/@example", $byPlatform["medium"]->url());
     self::assertSame("https://mastodon.social/@example", $byPlatform["mastodon"]->url());
+    self::assertSame("https://wa.me/example", $byPlatform["whatsapp"]->url());
   }
 
   public function testSpecialCasesAndInvalidEntries(): void
@@ -77,6 +78,7 @@ final class ContractTest extends PluginTestCase
     $markup = snippet("components/socials", ["kirby" => $app], true);
     self::assertStringContainsString('class="mds-socials-button"', $markup);
     self::assertStringContainsString('href="https://github.com/example"', $markup);
+    self::assertStringContainsString('title="Follow us on GitHub"', $markup);
     self::assertStringContainsString($svg, $markup);
   }
 
