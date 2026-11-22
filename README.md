@@ -6,7 +6,7 @@ public styling belongs entirely to the mounted MDS components.
 
 ## Installation
 
-Requires PHP 8.5 and Kirby 5.6.1 or later within Kirby 5. The Composer identity is
+Requires PHP 8.5 and Kirby 6. The Composer identity is
 `zeimoto/socials`, with installation directory `site/plugins/zeimoto-socials`.
 Release versions come from Git tags. For a manual installation, copy the plugin
 into that directory. Composer installations require the package to be registered
