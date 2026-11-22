@@ -2,7 +2,7 @@
 # Fields :: Socials :: Icon
 # ==========================================================
 
-type: files
+type: filepicker
 label: Social Icon
 translate: false
 image:

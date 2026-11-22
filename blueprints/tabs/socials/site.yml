@@ -7,11 +7,8 @@ icon: socials
 columns:
   columnLeft:
     width: 4/6
-    sections:
-      socialsContentLeft:
-        type: fields
-        fields:
-          socials:
+    fields:
+      socials:
             type: structure
             label: Socials
             translate: false
