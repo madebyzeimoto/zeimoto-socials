@@ -9,6 +9,8 @@
 
 declare(strict_types=1);
 
+$flatten = require __DIR__ . "/languages/flatten-blueprint-translations.php";
+
 Kirby::plugin("zeimoto/socials", [
   "collections" => [
     "socials" => require __DIR__ . "/collections/socials.php",
@@ -19,6 +21,7 @@ Kirby::plugin("zeimoto/socials", [
   "translations" => [
     "en" => [
       "zeimoto-socials-follow-us" => "Follow us on",
+      ...$flatten(require __DIR__ . "/languages/blueprints/en.php"),
     ],
   ],
   "blueprints" => [

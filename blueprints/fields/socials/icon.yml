@@ -3,7 +3,8 @@
 # ==========================================================
 
 type: filepicker
-label: Social Icon
+label:
+  "*": zeimoto-socials.fields.icon
 translate: false
 image:
   cover: true

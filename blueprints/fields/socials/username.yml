@@ -3,6 +3,7 @@
 # ==========================================================
 
 type: text
-label: Social Username
+label:
+  "*": zeimoto-socials.fields.username
 translate: false
 required: true

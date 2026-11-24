@@ -3,7 +3,8 @@
 # ==========================================================
 
 type: select
-label: Social Platform
+label:
+  "*": zeimoto-socials.fields.platform
 translate: false
 required: true
 options:

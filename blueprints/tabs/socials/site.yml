@@ -2,7 +2,8 @@
 # Tabs :: Socials :: Site
 # ==========================================================
 
-label: Socials
+label:
+  "*": zeimoto-socials.tabs.socials
 icon: socials
 columns:
   columnLeft:
@@ -10,7 +11,8 @@ columns:
     fields:
       socials:
             type: structure
-            label: Socials
+            label:
+              "*": zeimoto-socials.fields.socials
             translate: false
             fields:
               platform:
